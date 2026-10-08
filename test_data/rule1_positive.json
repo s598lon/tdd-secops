@@ -1,0 +1,25 @@
+[
+  {
+    "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "2025-02-24T14:25:02.2057707Z",
+    "Source": "Microsoft-Windows-Sysmon",
+    "EventLog": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "example-computer",
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "ParameterXml": "<Param>-</Param><Param>2025-02-24 14:25:02.199</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1337</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>5.1.19041.1023</Param><Param>-</Param><Param>Windows PowerShell</Param><Param>Microsoft Corporation</Param><Param>PowerShell.EXE</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>C:\\Users\\example_user\\Documents\\</Param><Param>EXAMPLE-PC\\example_user</Param><Param>{3d7a6f6f-804b-67bc-e703-000000000000}</Param><Param>0x3e7</Param><Param>1</Param><Param>High</Param><Param>MD5=EXAMPLEHASH1234567890ABCDEF,SHA256=EXAMPLEHASH1234567890ABCDEF0000000000000000000000000000000000</Param><Param>{00000000-0000-0000-0000-000000000000}</Param><Param>5024</Param><Param>-</Param><Param>-</Param><Param>-</Param>",
+    "EventData": "<DataItem Type=\"System.XmlData\" time=\"2025-02-24T14:25:02.205770700Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2025-02-24 14:25:02.199</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ProcessId\">1337</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">5.1.19041.1023</Data><Data Name=\"Description\">Windows PowerShell</Data><Data Name=\"Product\">Microsoft® Windows® Operating System</Data><Data Name=\"Company\">Microsoft Corporation</Data><Data Name=\"OriginalFileName\">PowerShell.EXE</Data><Data Name=\"CommandLine\">powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"`$env:Path += ';C:\\MyPath'^; G`et-`Pr`ocess | `% { $_.Name } `\"`\"\"</Data><Data Name=\"CurrentDirectory\">C:\\Users\\example_user\\Documents\\</Data><Data Name=\"User\">EXAMPLE-PC\\example_user</Data><Data Name=\"LogonGuid\">{3d7a6f6f-804b-67bc-e703-000000000000}</Data><Data Name=\"LogonId\">0x3E7</Data><Data Name=\"TerminalSessionId\">1</Data><Data Name=\"IntegrityLevel\">High</Data><Data Name=\"Hashes\">MD5=EXAMPLEHASH1234567890ABCDEF,SHA256=EXAMPLEHASH1234567890ABCDEF0000000000000000000000000000000000</Data><Data Name=\"ParentProcessGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"ParentProcessId\">5024</Data><Data Name=\"ParentImage\">-</Data><Data Name=\"ParentCommandLine\">-</Data><Data Name=\"ParentUser\">-</Data></EventData></DataItem>",
+    "EventID": 1,
+    "RenderedDescription": "Process Create: RuleName: - UtcTime: 2025-02-24 14:25:02.199 ProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000300} ProcessId: 1337 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 5.1.19041.1023 Description: Windows PowerShell Product: Microsoft® Windows® Operating System Company: Microsoft Corporation OriginalFileName: PowerShell.EXE CommandLine: powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"`$env:Path += ';C:\\MyPath'^; G`et-`Pr`ocess | `% { $_.Name } `\"`\"\" CurrentDirectory: C:\\Users\\example_user\\Documents\\ User: EXAMPLE-PC\\example_user LogonGuid: {3d7a6f6f-804b-67bc-e703-000000000000} LogonId: 0x3E7 TerminalSessionId: 1 IntegrityLevel: High Hashes: MD5=EXAMPLEHASH1234567890ABCDEF,SHA256=EXAMPLEHASH1234567890ABCDEF0000000000000000000000000000000000 ParentProcessGuid: {00000000-0000-0000-0000-000000000000} ParentProcessId: 5024 ParentImage: - ParentCommandLine: - ParentUser: -",
+    "AzureDeploymentID": "",
+    "Role": "",
+    "EventCategory": 1,
+    "UserName": "S-1-5-18",
+    "Message": "",
+    "MG": "00000000-0000-0000-0000-000000000001",
+    "ManagementGroupName": "AOI-54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "Type": "Event",
+    "_ResourceId": "/subscriptions/562db19c-f304-45df-8cc6-e93f7daed8cb/resourcegroups/purplecloud-00o69/providers/microsoft.compute/virtualmachines/dc1"
+  }
+]
